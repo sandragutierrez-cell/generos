@@ -1,14 +1,25 @@
-"numero""sexo","altura","peso","talla de zapato"
-1,"hombre",166,65,40
-2,"mujer",190,90,47
-3,"mujer",175,64,39
-4,"mujer",177,70,40
-5,"hombre",181,80,44
-6,"hombre",177,70,43
-7,"mujer",160,60,38
-8,"mujer",154,54,37
-9,"mujer",175,64,39
-10,"hombre"159,55,37
-11,"hombre",185,83,46
-12,"hombre",190,87,47
+CREATE DATABASE Generos  
+
+USE información;
+
+CREATE TABLE Datos (
+    Id_num INTEGER IDENTITY(1, 1),
+    Sexo VARCHAR(255) NOT NULL,
+    Altura INTEGER(3),
+    Peso INTEGER(3),
+    Talla_zapato INTEGER(2) NOT NULL,
+);
+
+INSERT INTO Datos VALUES ('hombre',166,65,40);
+INSERT INTO Datos VALUES ('mujer',190,90,47);
+INSERT INTO Datos VALUES ('mujer',175,64,39);
+INSERT INTO Datos VALUES ('mujer',177,70,40);
+INSERT INTO Datos VALUES ('hombre',181,80,44);
+INSERT INTO Datos VALUES ('hombre',177,70,43);
+INSERT INTO Datos VALUES ('mujer',160,60,38);
+INSERT INTO Datos VALUES ('mujer',154,54,37);
+INSERT INTO Datos VALUES ('mujer',175,64,39);
+INSERT INTO Datos VALUES ('hombre'159,55,37);
+INSERT INTO Datos VALUES ('hombre',185,83,46);
+INSERT INTO Datos VALUES ('hombre',190,87,47);
 
