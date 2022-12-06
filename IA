@@ -1,0 +1,18 @@
+git init
+git add README.md
+git commit -m ""numero""sexo","altura","peso","talla de zapato"
+1,"hombre",166,65,40
+2,"mujer",190,90,47
+3,"mujer",175,64,39
+4,"mujer",177,70,40
+5,"hombre",181,80,44
+6,"hombre",177,70,43
+7,"mujer",160,60,38
+8,"mujer",154,54,37
+9,"mujer",175,64,39
+10,"hombre"159,55,37
+11,"hombre",185,83,46
+12,"hombre",190,87,47"
+git remote add origin https://github.com/sandragutierrez-cell/generos.git
+git push -u origin main
+
